@@ -10,11 +10,15 @@ Allows developers to configure bcrypt parameters.
 
 *Composer:*
 
-`composer require vdlp/oc-bcryptsupport-plugin`
+```
+composer require vdlp/oc-bcryptsupport-plugin`
+```
 
 *CLI:*
 
-`php artisan plugin:install Vdlp.BcryptSupport`
+```
+php artisan plugin:install Vdlp.BcryptSupport
+```
 
 *October CMS:*
 
@@ -24,7 +28,9 @@ Go to Settings > Updates & Plugins > Install plugins and search for 'Bcrypt Supp
 
 To configure this plugin execute the following command:
 
-`php artisan vendor:publish --provider="Vdlp\BcryptSupport\ServiceProviders\BcryptSupportServiceProvider" --tag="config"`
+```
+php artisan vendor:publish --provider="Vdlp\BcryptSupport\ServiceProviders\BcryptSupportServiceProvider" --tag="config"
+```
 
 This will create a `config/bcrypt-support.php` file in your app where you can modify the configuration.
 
