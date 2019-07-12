@@ -11,7 +11,7 @@ Allows developers to configure bcrypt parameters.
 *Composer:*
 
 ```
-composer require vdlp/oc-bcryptsupport-plugin`
+composer require vdlp/oc-bcryptsupport-plugin
 ```
 
 *CLI:*
