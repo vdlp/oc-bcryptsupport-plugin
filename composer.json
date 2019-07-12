@@ -1,0 +1,15 @@
+{
+    "name": "vdlp/oc-bcryptsupport-plugin",
+    "description": "Allows developers to configure bcrypt parameters.",
+    "type": "october-plugin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Van der Let & Partners",
+            "email": "octobercms@vdlp.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    }
+}
