@@ -5,6 +5,7 @@ Allows developers to configure bcrypt parameters.
 ## Requirements
 
 * PHP 7.1 or higher
+* October CMS based on Laravel 5.8 or lower
 
 ## Installation
 
